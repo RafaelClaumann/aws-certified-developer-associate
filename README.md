@@ -6,4 +6,4 @@
     - [4. VPC Routing Deep Dive](https://rafaelclaumann.notion.site/4-VPC-Routing-Deep-Dive-fc13b0e147db4214963e050d8506fc53)
     - [6. Security Groups and Network ACLs](https://rafaelclaumann.notion.site/6-Security-Groups-and-Network-ACLs-b414a9768e2046dca090ed2c49d513bf)
     - [7. NAT Gateways and NAT Instances](https://rafaelclaumann.notion.site/7-NAT-Gateways-and-NAT-Instances-6fd149c98e654b1992c0571cb203f7e2)
-       
+    - [8. [HOL] Create NAT Gateway](https://rafaelclaumann.notion.site/8-HOL-Create-NAT-Gateway-bf29fedd60f847d0bd9180086006953c)
