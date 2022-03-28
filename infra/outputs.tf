@@ -17,3 +17,11 @@ output "private_us-east-1a_id" {
 output "private_us-east-1b_id" {
   value = aws_subnet.private-us-east-1b.id
 }
+
+output "public-ec2-instance-ip" {
+  value = aws_instance.public-ubuntu.public_ip
+}
+
+output "private-ec2-instance-ip" {
+  value = aws_instance.private-ubuntu.private_ip
+}

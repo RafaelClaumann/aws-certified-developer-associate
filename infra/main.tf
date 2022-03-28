@@ -108,12 +108,21 @@ resource "aws_internet_gateway" "custom-vpc-igw" {
 resource "aws_route_table" "private-route-table" {
   vpc_id = aws_vpc.custom-vpc.id
 
+  route {
+    cidr_block     = "0.0.0.0/0"
+    nat_gateway_id = aws_nat_gateway.nat-gw.id
+  }
+
   tags = {
     Name    = "private-route-table"
     Course  = "AWS Certified Solutions Architect Professional SAP-C01 2022"
     Session = "Advanced VPC"
     Class   = "5. [HOL] Configure Routing"
   }
+
+  depends_on = [
+    aws_nat_gateway.nat-gw
+  ]
 }
 
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route_table_association
@@ -170,7 +179,7 @@ resource "aws_security_group" "internal-ssh-sg" {
     description     = "Allow SSH to Internal EC2 Instances"
     from_port       = 22
     to_port         = 22
-    protocol        = "SSH"
+    protocol        = "TCP"
     security_groups = ["${aws_security_group.external-ssh-sg.id}"]
   }
 
@@ -188,4 +197,31 @@ resource "aws_security_group" "internal-ssh-sg" {
     Session = "Advanced VPC"
     Class   = "6. [HOL] Setup Security Groups and NACLs"
   }
+}
+
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip
+resource "aws_eip" "elastic-ip" {
+  vpc = true
+  depends_on = [
+    aws_internet_gateway.custom-vpc-igw
+  ]
+}
+
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/nat_gateway
+resource "aws_nat_gateway" "nat-gw" {
+  allocation_id = aws_eip.elastic-ip.id
+  subnet_id     = aws_subnet.public-us-east-1a.id
+
+  connectivity_type = "public"
+
+  tags = {
+    Name    = "custom-NAT-gateway"
+    Course  = "AWS Certified Solutions Architect Professional SAP-C01 2022"
+    Session = "Advanced VPC"
+    Class   = "8. [HOL] Create NAT Gateway"
+  }
+
+  depends_on = [
+    aws_eip.elastic-ip
+  ]
 }
