@@ -8,3 +8,4 @@
     - [7. NAT Gateways and NAT Instances](https://rafaelclaumann.notion.site/7-NAT-Gateways-and-NAT-Instances-6fd149c98e654b1992c0571cb203f7e2)
     - [8. [HOL] Create NAT Gateway](https://rafaelclaumann.notion.site/8-HOL-Create-NAT-Gateway-bf29fedd60f847d0bd9180086006953c)
     - [9. Using IPv6 in a VPC](https://rafaelclaumann.notion.site/9-Using-IPv6-in-a-VPC-9e7d203351594a6fb570c594659e7365)
+    - [10. [HOL] Configure IPv6](https://rafaelclaumann.notion.site/10-HOL-Configure-IPv6-2defb0d7ae8547759adcbcce1e1402ae)
