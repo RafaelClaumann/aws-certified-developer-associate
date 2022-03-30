@@ -7,3 +7,4 @@
     - [6. Security Groups and Network ACLs](https://rafaelclaumann.notion.site/6-Security-Groups-and-Network-ACLs-b414a9768e2046dca090ed2c49d513bf)
     - [7. NAT Gateways and NAT Instances](https://rafaelclaumann.notion.site/7-NAT-Gateways-and-NAT-Instances-6fd149c98e654b1992c0571cb203f7e2)
     - [8. [HOL] Create NAT Gateway](https://rafaelclaumann.notion.site/8-HOL-Create-NAT-Gateway-bf29fedd60f847d0bd9180086006953c)
+    - [9. Using IPv6 in a VPC](https://rafaelclaumann.notion.site/9-Using-IPv6-in-a-VPC-9e7d203351594a6fb570c594659e7365)
