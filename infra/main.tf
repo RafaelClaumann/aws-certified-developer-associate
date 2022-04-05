@@ -8,6 +8,9 @@ module "network" {
 
   vpc_cidr = "10.0.0.0/16"
 
+  subnets_az_us_east_1a = "us-east-1a"
+  subnets_az_us_east_1b = "us-east-1b"
+
   public_subnet_one_cidr = "10.0.0.0/20"
   public_subnet_two_cidr = "10.0.16.0/20"
 
