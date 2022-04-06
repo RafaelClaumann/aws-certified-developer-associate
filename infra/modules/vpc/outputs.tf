@@ -44,14 +44,6 @@ output "aws_internet_gateway_id" {
   value = aws_internet_gateway.this.id
 }
 
-output "aws_nat_gateway_id" {
-  value = aws_nat_gateway.this.id
-}
-
-output "aws_eip_address" {
-  value = aws_eip.this.address
-}
-
 output "aws_default_route_table_data" {
   value = aws_default_route_table.this.route
 }

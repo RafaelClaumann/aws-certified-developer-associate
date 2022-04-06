@@ -31,7 +31,7 @@ resource "aws_subnet" "public_subnet_two" {
 
 resource "aws_subnet" "private_subnet_one" {
   vpc_id            = aws_vpc.this.id
-  availability_zone = var.subnets_az_us_east_1a  
+  availability_zone = var.subnets_az_us_east_1a
   cidr_block        = var.private_subnet_one_cidr
 
   map_public_ip_on_launch = false
@@ -46,7 +46,7 @@ resource "aws_subnet" "private_subnet_one" {
 
 resource "aws_subnet" "private_subnet_two" {
   vpc_id            = aws_vpc.this.id
-  availability_zone = var.subnets_az_us_east_1b  
+  availability_zone = var.subnets_az_us_east_1b
   cidr_block        = var.private_subnet_two_cidr
 
   map_public_ip_on_launch = false

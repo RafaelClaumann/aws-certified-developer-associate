@@ -22,21 +22,12 @@ resource "aws_default_route_table" "this" {
 resource "aws_route_table" "this" {
   vpc_id = aws_vpc.this.id
 
-  route {
-    cidr_block     = "0.0.0.0/0"
-    nat_gateway_id = aws_nat_gateway.this.id
-  }
-
   tags = {
     Name    = "private-route-table"
     Course  = "AWS Certified Solutions Architect Professional SAP-C01 2022"
     Session = "Advanced VPC"
     Class   = "5. [HOL] Configure Routing"
   }
-
-  depends_on = [
-    aws_nat_gateway.this
-  ]
 }
 
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route_table_association

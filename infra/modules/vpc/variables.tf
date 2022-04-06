@@ -3,12 +3,12 @@ variable "vpc_cidr" {
 }
 
 variable "subnets_az_us_east_1a" {
-  type = string
+  type    = string
   default = "us-east-1a"
 }
 
 variable "subnets_az_us_east_1b" {
-  type = string
+  type    = string
   default = "us-east-1b"
 }
 
