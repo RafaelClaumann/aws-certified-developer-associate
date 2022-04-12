@@ -12,3 +12,4 @@
     - [11. VPC-Peering](https://rafaelclaumann.notion.site/11-VPC-Peering-1f17785048e141cfb547e74ff458d030)
     - [12. [HOL] Setup VPC in Second Account and Switch Roles](https://rafaelclaumann.notion.site/12-HOL-Setup-VPC-in-Second-Account-and-Switch-Roles-17af84de70e544c28f212cf4b0f3c1fd)
     - [13. [HOL] Create VPC Peering Connection](https://rafaelclaumann.notion.site/13-HOL-Create-VPC-Peering-Connection-4b0b6f67cc7041feb5b0624f22cf1e4a)
+    - [14. VPC Endpoints](https://rafaelclaumann.notion.site/14-VPC-Endpoints-3d220b854b92427699bdc73eff3a53b1)
