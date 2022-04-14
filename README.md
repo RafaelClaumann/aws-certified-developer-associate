@@ -15,4 +15,4 @@
     - [14. VPC Endpoints](https://rafaelclaumann.notion.site/14-VPC-Endpoints-3d220b854b92427699bdc73eff3a53b1)
 
 - [Seção 7: Compute, Auto Scaling and Load Balancing](https://rafaelclaumann.notion.site/Se-o-7-Compute-Auto-Scaling-and-Load-Balancing-695a5281441644d7bc9f2a669db204e7)
-    - [2. Amazon EC2 Pricing Options](https://rafaelclaumann.notion.site/1-Amazon-EC2-Pricing-Options-2075aa6213584f239aad612cc86049dc)
+    - [2. Amazon EC2 Pricing Options](https://rafaelclaumann.notion.site/2-Amazon-EC2-Pricing-Options-2075aa6213584f239aad612cc86049dc)
