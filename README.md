@@ -18,5 +18,5 @@
     - [2. Amazon EC2 Pricing Options](https://rafaelclaumann.notion.site/2-Amazon-EC2-Pricing-Options-2075aa6213584f239aad612cc86049dc)
     - [3. Amazon EC2 Pricing Use Cases](https://rafaelclaumann.notion.site/3-Amazon-EC2-Pricing-Use-Cases-2ce5896bd95c477793033071533a2d10)
     - [4. Bootstrapping AMIs](https://rafaelclaumann.notion.site/4-Bootstrapping-AMIs-5a8964d359ea49a1845716d7b1957d0c)
-    - [5. EC2 Placement Group Use Cases](https://rafaelclaumann.notion.site/4-Bootstrapping-AMIs-5a8964d359ea49a1845716d7b1957d0c)     
+    - [5. EC2 Placement Group Use Cases](https://rafaelclaumann.notion.site/5-EC2-Placement-Group-Use-Cases-39faa7b0ecf94e018f846ab16c3ecb0e)     
     
