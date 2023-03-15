@@ -1,7 +1,7 @@
-# Ultimate AWS Certified Developer Associate 2021 - NEW!
+# Ultimate AWS Certified Developer Associate 2021
   - [Seção 7: AWS Fundamentals: ELB + ASG](https://www.notion.so/rafaelclaumann/Se-o-7-AWS-Fundamentals-ELB-ASG-85cff30f0b624b18b997dff7a6510551?pvs=4)
 
-# AWS Certified Solutions Architect Professional SAP-C01 2022
+# AWS Certified Solutions Architect Professional
   - Seção 5: Advanced Amazon VPC
     - [2. Defining VPC CIDR Blocks](https://rafaelclaumann.notion.site/2-Defining-VPC-CIDR-Blocks-f32b2e2999ca456f98b1ed5af9dcbb1b)
     - [3. [HOL] Create a Custom VPC with Subnets](https://rafaelclaumann.notion.site/3-HOL-Create-a-Custom-VPC-with-Subnets-3c2f00d88e1848e99d9eda37a45306d9)
