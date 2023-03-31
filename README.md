@@ -1,6 +1,7 @@
 # Ultimate AWS Certified Developer Associate 2021
   - [Seção 7: AWS Fundamentals: ELB + ASG](https://rafaelclaumann.notion.site/Se-o-7-AWS-Fundamentals-ELB-ASG-85cff30f0b624b18b997dff7a6510551)
-  - [Seção 8: AWS Fundamentals: RDS + Aurora + ElastiCache](https://rafaelclaumann.notion.site/Se-o-8-AWS-Fundamentals-RDS-Aurora-ElastiCache-90edd08bb81a422c9bf53d4bb970d19c)  
+  - [Seção 8: AWS Fundamentals: RDS + Aurora + ElastiCache](https://rafaelclaumann.notion.site/Se-o-8-AWS-Fundamentals-RDS-Aurora-ElastiCache-90edd08bb81a422c9bf53d4bb970d19c)
+  - [Seção 9: AWS Route 53](https://rafaelclaumann.notion.site/Se-o-9-Route-53-f65da5222b7441d6bf982c39adb18e7a)
 
 # AWS Certified Solutions Architect Professional
   - Seção 5: Advanced Amazon VPC
